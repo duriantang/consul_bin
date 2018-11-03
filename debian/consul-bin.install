@@ -1,0 +1,2 @@
+consul /usr/bin/
+debian/etc_consul.d/* /etc/consul.d/

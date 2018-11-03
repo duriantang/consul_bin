@@ -1,0 +1,4 @@
+## https://www.consul.io/docs/commands/index.html#autocompletion
+## `consul -autocomplete-install`
+
+complete -C /usr/bin/consul consul

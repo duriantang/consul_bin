@@ -1,0 +1,42 @@
+Source: consul-bin
+Section: devel
+Priority: optional
+Maintainer: Hui Tang <duriantang@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.2.1.4
+Homepage: https://www.consul.io
+#Vcs-Browser: https://salsa.debian.org/debian/consul-bin
+#Vcs-Git: https://salsa.debian.org/debian/consul-bin.git
+
+Package: consul-bin
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, adduser
+Description: tool for service discovery, monitoring and configuration
+ Consul is a tool for service discovery and configuration. Consul is
+ distributed, highly available, and extremely scalable.
+ .
+ Consul provides several key features:
+ .
+  - Service Discovery - Consul makes it simple for services to register
+    themselves and to discover other services via a DNS or HTTP interface.
+    External services such as SaaS providers can be registered as well.
+ .
+  - Health Checking - Health Checking enables Consul to quickly alert operators
+    about any issues in a cluster. The integration with service discovery
+    prevents routing traffic to unhealthy hosts and enables service level
+    circuit breakers.
+ .
+  - Key/Value Storage - A flexible key/value store enables storing dynamic
+    configuration, feature flagging, coordination, leader election and more.
+    The simple HTTP API makes it easy to use anywhere.
+ .
+  - Multi-Datacenter - Consul is built to be datacenter aware, and can support
+    any number of regions without complex configuration.
+ .
+ Consul runs on Linux, Mac OS X, and Windows. It is recommended to run the
+ Consul servers only on Linux, however.
+ .
+ Consul runs on Linux, Mac OS X, and Windows. It is recommended to run the
+ Consul servers only on Linux, however.
+ .
+ This package contains the amd64 binary.
